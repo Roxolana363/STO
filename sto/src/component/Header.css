@@ -1,4 +1,4 @@
-
+/*
   .Roboto-Bold {
     font-family: Roboto-Bold ;
     src: url(Roboto-Bold.ttf);
@@ -33,4 +33,15 @@
 };
 .DarkBlu {
   color: #162088;
-};
+}; */
+
+.navStyle {
+  background:  #000000;
+  justify-content: space-between;
+  opacity: 85%;
+}
+
+.container-fluid {
+    background:  #000000;
+    color:  #ffffff;
+}
