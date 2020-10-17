@@ -1,0 +1,36 @@
+
+  .Roboto-Bold {
+    font-family: Roboto-Bold ;
+    src: url(Roboto-Bold.ttf);
+    font-weight: bold;
+  };
+
+  .Roboto-Light {
+    font-family: Roboto-Light ;
+    src: url(Roboto-Light.ttf);
+    font-weight: bold;
+  };
+
+  .Roboto-Regular {
+    font-family: Roboto-Regular ;
+    src: url(Roboto-Regular.ttf);
+    font-weight: bold;
+  };
+
+  .MontserratAlternates-Regular {
+    font-family: MontserratAlternates-Regular ;
+    src: url(MontserratAlternates-Regular.ttf);
+    font-weight: bold;
+  };
+  .MontserratAlternates-SemiBold {
+    font-family: MontserratAlternates-SemiBold ;
+    src: url(MontserratAlternates-SemiBold.ttf);
+    font-weight: bold;
+  };
+
+.Blu {
+  color: #394AF9;
+};
+.DarkBlu {
+  color: #162088;
+};
