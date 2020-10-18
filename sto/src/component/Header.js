@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Header.css';
 import Group from "../img/Group.png";
+import Home from './Home.js';
+import About from './About.js';
 
 function Link(props){
   return(
@@ -29,16 +31,16 @@ export default class Header extends Component {
       <div>+380 97 13 45 624</div>
     </nav>
     <div id="Головна">
-    <p> element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent</p>
+    <Home />
     </div>
     <div id="Про нас">
-    <p></p>
+    <About />
     </div>
     <div id="Наші послуги">
-    <p> element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent element that is the second p element of its parent</p>
+    <p>gnfgngf</p>
     </div>
     <div id="Контакти">
-    <p></p>
+    <p>ghgfhbgf</p>
     </div>
     </div>
     );
