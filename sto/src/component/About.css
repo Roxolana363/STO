@@ -1,28 +1,23 @@
-
 .Roboto-Light {
   font-family: Roboto-Light ;
   src: url(Roboto-Light.ttf);
   font-weight: bold;
 }
-
 .MontserratAlternates-SemiBold {
   font-family: MontserratAlternates-SemiBold ;
   src: url(MontserratAlternates-SemiBold.ttf);
   font-weight: bold;
 }
 .text6 {
-  margin: 20% 0% 0% 10%;
   font-size: 48px;
 }
 .text7 {
-  margin: 2% 0% 0% 10%;
   font-size: 18px;
 }
+.inline {
+  display: inline-block;
+  padding: 10% 0% 0% 5%;
+ }
 .HardWorker {
-  position: relative;
-  top: 10%;
-  left: 60%;
-  height: 30%;
-  width: 30%;
-
+  margin: 0% 0% 0% 2%;
 }
