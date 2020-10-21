@@ -1,0 +1,21 @@
+.FavCard {
+
+  background: #1A1A1A;
+  width: 255px;
+  height: 210px;
+  margin:1%;
+}
+
+.FavImg {
+  width: 60%;
+  height: 62%;
+  margin-bottom: 5%;
+}
+.FavText {
+  font-size: 14px;
+}
+.Roboto-Regular {
+  font-family: Roboto-Regular ;
+  src: url(Roboto-Regular.ttf);
+  font-weight: bold;
+}

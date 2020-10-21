@@ -1,0 +1,13 @@
+.container {
+  margin-top: 15%;
+}
+
+.MakSi {
+  text-align: center;
+  font-size: 48px;
+}
+.MontserratAlternates-Regular {
+  font-family: MontserratAlternates-Regular ;
+  src: url(MontserratAlternates-Regular.ttf);
+  font-weight: bold;
+}

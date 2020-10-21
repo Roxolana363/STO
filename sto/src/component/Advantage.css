@@ -2,7 +2,7 @@
 .advantage {
 margin-left: 19%;
 background: #000000;
-width: 180px;
+width: 185px;
 height: 200px;
 text-align: center;
 padding: 0% 0% 0% 0%;
@@ -11,4 +11,14 @@ padding: 0% 0% 0% 0%;
 .Adimg {
   height:70px;
   width: 70px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.Roboto-Regular {
+  font-family: Roboto-Regular ;
+  src: url(Roboto-Regular.ttf);
+  font-weight: bold;
 }

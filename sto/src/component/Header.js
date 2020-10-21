@@ -4,6 +4,7 @@ import Group from "../img/Group.png";
 import Home from './Home.js';
 import About from './About.js';
 import Benefits from './Benefits.js';
+import Services from './Services.js';
 
 function Link(props){
   return(
@@ -36,9 +37,10 @@ export default class Header extends Component {
     </div>
     <div id="Про нас">
     <About />
+    < Benefits />
     </div>
     <div id="Наші послуги">
-    < Benefits />
+< Services />
     </div>
     <div id="Контакти">
     <p>ghgfhbgf</p>

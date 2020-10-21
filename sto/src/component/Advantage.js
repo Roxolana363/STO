@@ -9,7 +9,7 @@ export default class Advantage extends Component {
     <div className="card-body" href="/">
       <img src={this.props.adinfo.img} className="Adimg" alt="Adimg" />
       <p>{this.props.adinfo.num}</p>
-      <p className="card-text">{this.props.adinfo.text}</p>
+      <p className="card-text Roboto-Regular">{this.props.adinfo.text}</p>
     </div>
     </div>
     )

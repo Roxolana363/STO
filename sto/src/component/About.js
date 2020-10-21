@@ -1,10 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './About.css';
 import HardWorker from '../img/Mask Group 25.jpg';
 
-
-export default class About extends Component {
-  render(){
+const About = () => {
     return(
      <div>
       <div className="inline">
@@ -20,4 +18,5 @@ export default class About extends Component {
     </div>
     );
   }
-}
+
+export default About;
