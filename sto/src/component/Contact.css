@@ -1,0 +1,51 @@
+.Map {
+  height: 200px;
+  width: 90%;
+  margin: 4%;
+}
+
+.row {
+  margin: 4%;
+}
+
+.contact {
+    margin: 5%;
+    padding-top: 3%;
+    font-size: 48px;
+}
+
+.contText {
+ color: #ffffff;
+ font-size: 14px;
+
+}
+a:hover {
+  text-decoration: none;
+  color: #394AF9;
+ }
+
+.BigText {
+  font-size: 16px;
+
+}
+.SmalText {
+font-size: 14px;
+}
+
+.Roboto-Bold {
+  font-family: Roboto-Bold ;
+  src: url(Roboto-Bold.ttf);
+  font-weight: bold;
+}
+
+.Roboto-Light {
+  font-family: Roboto-Light ;
+  src: url(Roboto-Light.ttf);
+  font-weight: light;
+}
+
+.Roboto-Regular {
+  font-family: Roboto-Regular ;
+  src: url(Roboto-Regular.ttf);
+  font-weight: bold;
+}

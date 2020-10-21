@@ -10,13 +10,15 @@ import Option7 from '../img/Group 3041.png';
 import Option8 from '../img/Group 3045.png';
 
 
-function Favor({src, text}) {
+function Favor({src, text, link}) {
   return (
     <>
-    <div className="card inline FavCard ">
+
+    <div href={link} className="card inline FavCard ">
     <img src={src} alt="favor"  className="FavImg"/>
     <p className="FavText Roboto-Regular">{text}</p>
     </div>
+
     </>
   )
 }
@@ -24,14 +26,14 @@ function Favor({src, text}) {
 const Favors = () => {
   return (
     <>
-    <Favor src={Option1} text="РЕМОНТ" />
-    <Favor src={Option2} text="ПЛАНОВО ТО" />
-    <Favor src={Option3} text="ШИНОМОНТАЖ" />
-    <Favor src={Option4} text="ДИАГНОСТИКА" />
-    <Favor src={Option5} text="РАЗВАЛ-СХОЖДЕНИЕ" />
-    <Favor src={Option6} text="УСЛУГИ АВТОЕЛЕКТРИКА" />
-    <Favor src={Option7} text="КУЗОВНЫЕ РАБОТЫ" />
-    <Favor src={Option8} text="МОЙКА И ДЕТЕЙЛИНГ" />
+    <Favor src={Option1} text="РЕМОНТ" link="https://dev-gang.ru/article/integriruite-krasivye-karty-google-v-svoi-proekt-react-49y49uxwm8/"/>
+    <Favor src={Option2} text="ПЛАНОВО ТО"  link="/Головна" />
+    <Favor src={Option3} text="ШИНОМОНТАЖ"   link="/Головна" />
+    <Favor src={Option4} text="ДИАГНОСТИКА"   link="/Головна" />
+    <Favor src={Option5} text="РАЗВАЛ-СХОЖДЕНИЕ"  link="/Головна" />
+    <Favor src={Option6} text="УСЛУГИ АВТОЕЛЕКТРИКА"  link="/Головна" />
+    <Favor src={Option7} text="КУЗОВНЫЕ РАБОТЫ"  link="/Головна" />
+    <Favor src={Option8} text="МОЙКА И ДЕТЕЙЛИНГ"   link="/Головна" />
     </>
   )
 }

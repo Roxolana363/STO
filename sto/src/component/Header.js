@@ -5,6 +5,8 @@ import Home from './Home.js';
 import About from './About.js';
 import Benefits from './Benefits.js';
 import Services from './Services.js';
+import Information from './Information.js';
+import Contact from './Contact.js';
 
 function Link(props){
   return(
@@ -41,9 +43,10 @@ export default class Header extends Component {
     </div>
     <div id="Наші послуги">
 < Services />
+<Information />
     </div>
     <div id="Контакти">
-    <p>ghgfhbgf</p>
+    < Contact />
     </div>
     </div>
     );
