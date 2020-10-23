@@ -1,0 +1,39 @@
+.ServiceContainer{
+margin-top: 10%;
+text-align: center;
+}
+.RowCont {
+  height: 100px;
+  width: 30%;
+  border: solid;
+  margin: 2%;
+}
+.RowCont:hover{
+  background: #162088;
+  border-color: #3642B9;
+}
+.ColText {
+  font-size: 13px;
+ text-align: left;
+}
+.Roboto-Regular {
+  font-family: Roboto-Regular ;
+  src: url(Roboto-Regular.ttf);
+  font-weight: bold;
+}
+.ServiceTitle{
+font-size: 48px;
+}
+.ServiceText{
+font-size: 18px;
+}
+.MontserratAlternates-SemiBold {
+  font-family: MontserratAlternates-SemiBold ;
+  src: url(MontserratAlternates-SemiBold.ttf);
+  font-weight: bold;
+}
+.Roboto-Light {
+  font-family: Roboto-Light ;
+  src: url(Roboto-Light.ttf);
+  font-weight: bold;
+}

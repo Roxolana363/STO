@@ -1,5 +1,13 @@
 .Mask {
   margin: 10% 0% 5% 5%;
-  height: 90%;
+  height: 50%;
   width: 90%;
+
+}
+.AD {
+  margin-left: 32%;
+  background: #000000;
+  width: 60%;
+  height: 203px;
+  align-content: center;
 }

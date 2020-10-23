@@ -10,7 +10,6 @@ import Locate from '../img/Locate.png';
 function Contacts({src, data1, data2}) {
   return (
     <>
-
     <div className="row Info d-inline-flex">
     <img src={src} alt="Contact"  className="col col-sm-6 col-md-3 ContImg"/>
     <div className="col col-sm-6 col-md-9">

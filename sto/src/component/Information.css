@@ -1,6 +1,12 @@
 .Tool {
+    height: 30%;
+    width: 90%;
+    margin: 10% 0% 5% 5%;
 
-  height: 30%;
-  width: 90%;
-  margin: 10% 0% 5% 5%;
+}
+.WaysToContact {
+  width: 100%;
+  height: 300px;
+
+
 }

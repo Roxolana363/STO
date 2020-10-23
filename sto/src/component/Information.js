@@ -9,7 +9,9 @@ export default class Information extends Component {
     return(
       <div className="container-fluid">
         <img src={Tools} alt="Tool" className="Tool" />
-        <WaysToContact />
+        <div className="WaysToContact">
+        <WaysToContact  />
+        </div>
       </div>
     )
   }

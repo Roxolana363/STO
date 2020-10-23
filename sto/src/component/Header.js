@@ -7,6 +7,7 @@ import Benefits from './Benefits.js';
 import Services from './Services.js';
 import Information from './Information.js';
 import Contact from './Contact.js';
+import HeaderDiag from '../component2/HeaderDiag.js';
 
 function Link(props){
   return(
@@ -26,13 +27,17 @@ export default class Header extends Component {
     return(
       <div className="container-fluid">
     <nav className = "navbar navbar-expand-sm  text-light  fixed-top navStyle" >
-     <label href="/" ><img src={Group} heigth="30" width="30" className="" alt="Logo" /></label>
+     <label href="/" ><img src={Group} className="Logo" alt="Logo" /></label>
+
+
       <ul className="nav">
         {Links.map((item, index) =>(
           <Link key={item.label} info={item} />
         ) )}
       </ul>
+
       <div>+380 97 13 45 624</div>
+
     </nav>
     <div id="Головна">
     <Home />
@@ -42,11 +47,14 @@ export default class Header extends Component {
     < Benefits />
     </div>
     <div id="Наші послуги">
-< Services />
-<Information />
+    < Services />
+    <Information />
     </div>
     <div id="Контакти">
     < Contact />
+    </div>
+    <div>
+    <HeaderDiag />
     </div>
     </div>
     );

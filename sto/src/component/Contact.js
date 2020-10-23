@@ -7,18 +7,18 @@ function Contact() {
     <>
     <p className="contact">контакти</p>
      <div className="row">
-       <div className="col col-sm-6 col-md-3">
+       <div className="col-6 col-md-3">
           <h5 className="BigText Roboto-Bold">MakSi< /h5>
           <p className="SmalText Roboto-Light">Ми поможемо справитись з вашими
-          проблемами без переплат і стрсу </p>
+          проблемами без переплат і стрeсу </p>
        </div>
-       <div className="col col-sm-6 col-md-3">
+       <div className="col-6 col-md-3">
          <h5 className="BigText Roboto-Bold">МЕНЮ</h5>
          <a href="/Головна" className="contText Roboto-Light">Головна</a>< br />
          <a href="/Наші послуги" className="contText Roboto-Light">Наші послуги</a>< br />
          <a href="/Про нас" className="contText Roboto-Light">Про нас</a>< br />
       </div>
-      <div className="col col-sm-6 col-md-3">
+      <div className="col-6 col-md-3 ">
         <h5 className="BigText Roboto-Bold">КОНТАКТИ< /h5>
         <p className="SmalText Roboto-Regular"> Адрес:</p>
         <p className="SmalText Roboto-Light">Львів, вул. Кульпарківська, 59</p>
@@ -29,8 +29,8 @@ function Contact() {
         <p className="SmalText Roboto-Regular">E-mail:</p>
         <p className="SmalText Roboto-Light">autositeservice@gmail.com</p>
      </div>
-     <div className="col col-sm-6 col-md-3">
-       <h5 className="BigText Roboto-Bold">График работи< /h5>
+     <div className="col-6 col-md-3">
+       <h5 className="BigText Roboto-Bold">ГРАФІК РОБОТИ< /h5>
        <p className="SmalText Roboto-Regular"> График работы:</p>
        <p className="SmalText Roboto-Light">Від 9:00 до 19:00< br />
                                              Від Понеділка до Суботи

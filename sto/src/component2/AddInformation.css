@@ -1,0 +1,22 @@
+.AddContainer{
+  margin:10% 5% 5% 5%;
+}
+.AddTextContainer{
+padding: 5%;
+}
+.AddTitle{
+  font-size: 48px;
+}
+.AddText{
+  font-size: 18px;
+}
+.Roboto-Light {
+  font-family: Roboto-Light ;
+  src: url(Roboto-Light.ttf);
+  font-weight: bold;
+}
+.MontserratAlternates-SemiBold {
+  font-family: MontserratAlternates-SemiBold ;
+  src: url(MontserratAlternates-SemiBold.ttf);
+  font-weight: bold;
+}

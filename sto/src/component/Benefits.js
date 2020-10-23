@@ -3,6 +3,7 @@ import './Benefits.css';
 import Advantage from './Advantage.js';
 import Mask from '../img/Mask Group 22.png';
 
+
 //
 // export default class Benefits extends Component {
 // constructor(props){
@@ -66,9 +67,11 @@ export default class Benefits extends Component {
     return(
       <div className="container-fluid">
        <img className="Mask" src={Mask} alt="Mask" />
+       <div  className="AD">
           {Advantages.map((item, index) =>(
-          <Advantage key={item.id} adinfo={item} />
+          <Advantage key={item.id} adinfo={item}/>
           ) )}
+      </div>
     </div>
     );
   }

@@ -23,7 +23,7 @@
 
 .fon {
   width: 100%;
-  height: 738px;
+  height: 730px;
 
 }
 
@@ -52,23 +52,23 @@
 
 .text4 {
 	position: absolute;
-  padding: 38px 199px 128px 35px;
-  top: 445px;
-	right: 405px;
-  font-size: 23px;
-  height: 293px;
-  width: 405px;
+  padding: 3% 20% 10% 3%;
+  top: 60%;
+	right: 25%;
+  font-size: 1.4em;
+  height: 40%;
+  width: 25%;
   background: #000000;
   opacity: 75%;
 }
 .text5 {
 	position: absolute;
-  padding: 38px 199px 128px 35px;
-	top: 445px;
+  padding: 3% 20% 10% 3%;
+	top: 60%;
 	right: 0px;
-  font-size: 23px;
-  height: 293px;
-  width: 405px;
+  font-size: 1.4em;
+  height: 40%;
+  width: 25%;
   background: #394AF9;
   opacity: 75%;
 }

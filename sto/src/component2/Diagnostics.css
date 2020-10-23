@@ -1,0 +1,34 @@
+.Worker{
+  height: 40%;
+  width: 90%;
+  margin: 4% 4% 0% 4%;
+}
+.ContDiag{
+  height: 30%;
+  width: 61%;
+  background: #000000;
+  margin-left: 33%;
+  text-align: left;
+  padding: 4%;
+}
+.ContDiag:hover{
+  background: #162088;
+
+}
+.HDiag{
+  font-size: 48px;
+  margin-bottom: 2%;
+}
+.TDiag {
+  font-size: 18px;
+}
+.MontserratAlternates-SemiBold {
+  font-family: MontserratAlternates-SemiBold ;
+  src: url(MontserratAlternates-SemiBold.ttf);
+  font-weight: bold;
+}
+.Roboto-Light {
+  font-family: Roboto-Light ;
+  src: url(Roboto-Light.ttf);
+  font-weight: bold;
+}
