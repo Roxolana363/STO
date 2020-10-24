@@ -1,12 +1,14 @@
 .ServiceContainer{
 margin-top: 10%;
 text-align: center;
+padding: 5%;
 }
 .RowCont {
   height: 100px;
-  width: 30%;
+  width: 480px;
   border: solid;
-  margin: 2%;
+  margin: 1%;
+  display: inline-flex;
 }
 .RowCont:hover{
   background: #162088;
@@ -16,16 +18,17 @@ text-align: center;
   font-size: 13px;
  text-align: left;
 }
-.Roboto-Regular {
-  font-family: Roboto-Regular ;
-  src: url(Roboto-Regular.ttf);
-  font-weight: bold;
-}
 .ServiceTitle{
 font-size: 48px;
 }
 .ServiceText{
 font-size: 18px;
+}
+
+.Roboto-Regular {
+  font-family: Roboto-Regular ;
+  src: url(Roboto-Regular.ttf);
+  font-weight: bold;
 }
 .MontserratAlternates-SemiBold {
   font-family: MontserratAlternates-SemiBold ;
@@ -36,4 +39,27 @@ font-size: 18px;
   font-family: Roboto-Light ;
   src: url(Roboto-Light.ttf);
   font-weight: bold;
+}
+ @media screen and (max-width: 1050px){
+   .RowCont {
+     height: 100px;
+     width: 340px;
+   }
+   .ServiceTitle{
+   font-size: 28px;
+   }
+   .ServiceText{
+   font-size: 14px;
+
+   }
+}
+@media screen and (max-width: 750px){
+.RowCont {
+  height: 90px;
+  width: 240px;
+}
+  .ColText {
+    font-size: 12px;
+    text-align: center;
+  }
 }

@@ -2,14 +2,14 @@
   background: #1A1A1A;
   color: #ffffff;
   width: 300px;
-  height: 300px;
-  margin:1% 2% 2% 2%;
+  height: 30%;
+  margin: 1% 2% 2% 2%;
+  text-align: center;
+  padding: 2%;
 }
-
 .FavImg {
-  width: 60%;
-  height: 60%;
-  margin-bottom: 5%;
+  width: 90px;
+  height: 90px;
 }
 .FavText {
   font-size: 16px;
@@ -19,9 +19,23 @@
   src: url(Roboto-Regular.ttf);
   font-weight: bold;
 }
-
 .FavCard:hover {
   text-decoration: none;
-    color: #ffffff;
-    background: #162088;
+  color: #ffffff;
+  background: #162088;
  }
+ @media screen and (max-width: 720px){
+.FavCard {
+  width: 200px;
+  height: 50%;
+  padding: 1%;
+  margin: 0% 1% 1% 1%;
+   }
+.FavImg {
+  width: 50px;
+  height: 50px;
+}
+.FavText {
+  font-size: 12px;
+   }
+}

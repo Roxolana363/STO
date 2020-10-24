@@ -1,14 +1,29 @@
 .service {
   margin-top: 15%;
 }
-
 .MakSi {
 padding-top: 5%;
   text-align: center;
   font-size: 48px;
+}
+.MakSi:hover{
+  font-size: 60px;
+}
+.FS{
+  text-align: center;
 }
 .MontserratAlternates-Regular {
   font-family: MontserratAlternates-Regular ;
   src: url(MontserratAlternates-Regular.ttf);
   font-weight: bold;
 }
+ @media screen and (max-width: 720px){
+.MakSi {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 28px;
+   }
+   .MakSi:hover{
+     font-size: 30px;
+   }
+ }

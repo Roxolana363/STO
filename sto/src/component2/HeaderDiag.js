@@ -4,53 +4,47 @@ import Contact from '../component/Contact.js';
 import Diagnostics from './Diagnostics.js';
 import DiagnosticServices from './DiagnosticServices.js';
 import AddInformation from './AddInformation.js';
+import {Navbar, Nav, Container} from 'react-bootstrap';
 
-
-function Link(props){
-  return(
-  <li className="nav-item">
-<a className="nav-link text-light" href={props.info.url}>{props.info.label}</a>
-  </li>
-)};
-
-export default class HeaderDiag extends Component {
+export default class Header extends Component {
   render(){
-    let Links = [
-      {label:"Головна", url:"#" },
-      {label:"Про нас", url:"#" },
-      {label:"Наші послуги", url:"#" },
-      {label:"Контакти", url:"#Контакти" },
-    ]
     return(
-      <div className="container-fluid">
-    <nav className = "navbar navbar-expand-sm  text-light  fixed-top navStyle" >
-     <label href="/Header" >MakSi</label>
-      <ul className="nav">
-        {Links.map((item, index) =>(
-          <Link key={item.label} info={item} />
-        ) )}
-      </ul>
-      <div>+380 97 13 45 624</div>
-    </nav>
+      <>
+    <Navbar  collapseOnSelect expand="md" variant="dark"  className="navStyle fixed-top">
+      <Container>
+        <Navbar.Brand href="/" >MakSi</Navbar.Brand>
+           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+           <Navbar.Collapse id="responsive-navbar-nav" >
+              <Nav className="mr-auto">
+                  <Nav.Link href="#" className="text-light">Головна</Nav.Link>
+                  <Nav.Link href="#" className="text-light">Про нас</Nav.Link>
+                  <Nav.Link href="#" className="text-light">Наші послуги</Nav.Link>
+                  <Nav.Link href="#Контакти" className="text-light">Контакти</Nav.Link>
+              </Nav>
+              <div>+380 97 13 45 624</div>
+           </ Navbar.Collapse>
+      </Container>
+    </Navbar>
+
+        <div>
+          <Diagnostics />
+        </div>
+
+        <div>
+            <DiagnosticServices />
+        </div>
+
+        <div>
+            <AddInformation />
+        </div>
+
+        <div id="Контакти">
+        < Contact />
+        </div>
+      
 
 
-
-    <div>
-      <Diagnostics />
-    </div>
-
-    <div>
-        <DiagnosticServices />
-    </div>
-
-    <div>
-        <AddInformation />
-    </div>
-
-    <div id="Контакти">
-    < Contact />
-    </div>
-    </div>
+    </>
     );
   }
 }

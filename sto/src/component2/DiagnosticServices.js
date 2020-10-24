@@ -9,10 +9,10 @@ import Service4 from '../img/Group 517.png';
 function Services({src, text}) {
   return (
     <>
-    <div className=" d-inline-flex RowCont">
+    <div className="RowCont">
     <div className="row">
-    <img src={src} alt="Services"  className="col col-sm-6 col-md-3 ColImg"/>
-    <p className="col col-sm-6 col-md-9 ColText Roboto-Regular">{text}</p>
+    <img src={src} alt="Services"  className="col col-sm-3"/>
+    <p className="col col-sm-9 ColText Roboto-Regular">{text}</p>
     </div>
     </div>
 

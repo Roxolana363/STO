@@ -8,7 +8,9 @@ export default class Services extends Component {
     return(
       <div className="container-fluid service">
         <h1 className="MakSi MontserratAlternates-Regular">Наші послуги MakSi </h1>
+        <div className="FS">
         <Favors />
+        </div>
       </div>
     )
   }

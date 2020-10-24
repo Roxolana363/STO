@@ -23,3 +23,24 @@
   height: 30%;
   width: 45%;
 }
+
+ @media screen and (max-width: 1050px){
+.HardWorker {
+  margin: 5%;
+  height: 300px;
+  width: 450px;
+}
+ }
+ @media screen and (max-width: 550px){
+.HardWorker {
+  margin: 2%;
+  height: 85%;
+  width: 95%;
+}
+.text6 {
+  font-size: 28px;
+}
+.text7 {
+  font-size: 14px;
+}
+ }

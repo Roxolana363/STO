@@ -12,7 +12,7 @@ const About = () => {
                                              featuring a lavish, quilted crystal white nappa leather finish. In this luxury<br />
                                              technique, familiar among other things from Chesterfield furniture, the leather is<br />
                                              put into folds in a diamond pattern and secured to the frame with buttons.
-          </p>
+           </p>
       < /div>
           <img src={HardWorker} alt="HardWorker" className="HardWorker" />
     </div>

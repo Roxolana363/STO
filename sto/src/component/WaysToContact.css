@@ -1,13 +1,19 @@
 .Info {
 background: #000000;
 align-content: center;
-width: 245px;
-height: 80px;
-
-
 }
-
 .ContImg {
   align-content: center;
   padding: 3%;
+}
+.Data1{
+font-size: 14px;
+}
+.Data2{
+font-size: 14px;
+}
+.Roboto-Light {
+  font-family: Roboto-Light ;
+  src: url(Roboto-Light.ttf);
+  font-weight: bold;
 }

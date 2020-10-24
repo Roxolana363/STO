@@ -4,7 +4,6 @@
   margin: 4% 4% 0% 4%;
 }
 .ContDiag{
-  height: 30%;
   width: 61%;
   background: #000000;
   margin-left: 33%;
@@ -32,3 +31,18 @@
   src: url(Roboto-Light.ttf);
   font-weight: bold;
 }
+ @media screen and (max-width: 750px){
+   .Worker{
+     height: 200px;
+   }
+   .ContDiag{
+     width: 90%;
+     margin-left: 4%;
+   }
+   .HDiag{
+     font-size: 28px;
+   }
+   .TDiag {
+     font-size: 14px;
+   }
+ }

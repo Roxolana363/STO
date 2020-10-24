@@ -1,8 +1,10 @@
 .AddContainer{
   margin:10% 5% 5% 5%;
+  align-content: center;
+  display: inline-flex;
 }
 .AddTextContainer{
-padding: 5%;
+padding: 0% 2% 4% 2%;
 }
 .AddTitle{
   font-size: 48px;
@@ -19,4 +21,16 @@ padding: 5%;
   font-family: MontserratAlternates-SemiBold ;
   src: url(MontserratAlternates-SemiBold.ttf);
   font-weight: bold;
+}
+
+@media screen and (max-width: 750px){
+  .AddContainer{
+    display: block;
+  }
+  .AddTitle{
+    font-size: 28px;
+  }
+  .AddText{
+    font-size: 15px;
+  }
 }

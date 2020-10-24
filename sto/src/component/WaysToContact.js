@@ -11,10 +11,10 @@ function Contacts({src, data1, data2}) {
   return (
     <>
     <div className="row Info d-inline-flex">
-    <img src={src} alt="Contact"  className="col col-sm-6 col-md-3 ContImg"/>
-    <div className="col col-sm-6 col-md-9">
-    <p className="Data1">{data1}</p>
-    <p className="Data2">{data2}</p>
+    <img src={src} alt="Contact"  className="col col-3 ContImg"/>
+    <div className="col col-9">
+    <p className="Data1 Roboto-Light">{data1}</p>
+    <p className="Data2 Roboto-Light">{data2}</p>
     </div>
    </div>
     </>

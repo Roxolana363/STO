@@ -1,13 +1,29 @@
 .Mask {
   margin: 10% 0% 5% 5%;
-  height: 50%;
+  height: 60%;
   width: 90%;
+}
+.BN {
+  text-align: right;
+  margin-right: 5%;
 
 }
-.AD {
-  margin-left: 32%;
-  background: #000000;
-  width: 60%;
-  height: 203px;
-  align-content: center;
+
+@media screen and (max-width: 1050px){
+
+  .Mask {
+    margin: 10% 0% 0% 0%;
+    height: 500px;
+    width: 100%;
+  }
+  .BN {
+    text-align: center;
+    margin-right: 5%;
+    margin-top: -50%;
+  }
 }
+ @media screen and (max-width: 550px){
+   .Mask {
+     height: 300px;
+   }
+ }

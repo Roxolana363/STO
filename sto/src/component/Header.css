@@ -37,15 +37,11 @@
 
 .navStyle {
   background:  #000000;
+  color:  #ffffff;
   justify-content: space-between;
-  opacity: 85%;
+  /* opacity: 85%; */
 }
-
 .container-fluid {
     background:  #000000;
     color:  #ffffff;
-}
-.Logo {
-  height: 30px;
-  width: 30px;
 }

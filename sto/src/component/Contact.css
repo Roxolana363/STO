@@ -49,3 +49,9 @@ font-size: 14px;
   src: url(Roboto-Regular.ttf);
   font-weight: bold;
 }
+@media screen and (max-width: 550px){
+.contact {
+  margin: 6%;
+  font-size: 28px;
+  }
+}

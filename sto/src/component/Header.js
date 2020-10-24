@@ -9,36 +9,40 @@ import Information from './Information.js';
 import Contact from './Contact.js';
 import HeaderDiag from '../component2/HeaderDiag.js';
 
-function Link(props){
-  return(
-  <li className="nav-item">
-<a className="nav-link text-light" href={props.info.url}>{props.info.label}</a>
-  </li>
-)};
+import {Navbar, Nav, Container} from 'react-bootstrap';
+
+
 
 export default class Header extends Component {
   render(){
-    let Links = [
-      {label:"Головна", url:"#Головна" },
-      {label:"Про нас", url:"#Про нас" },
-      {label:"Наші послуги", url:"#Наші послуги" },
-      {label:"Контакти", url:"#Контакти" },
-    ]
     return(
-      <div className="container-fluid">
-    <nav className = "navbar navbar-expand-sm  text-light  fixed-top navStyle" >
-     <label href="/" ><img src={Group} className="Logo" alt="Logo" /></label>
+      <>
+    <Navbar  collapseOnSelect expand="md" variant="dark"  className="navStyle fixed-top">
+      <Container>
+        <Navbar.Brand href="/" >
+          <img
+             src={Group}
+             heigth="30"
+             width="30"
+             className="d-inline-block align-top"
+             alt="Logo"
+           />
+           </Navbar.Brand>
+           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+           <Navbar.Collapse id="responsive-navbar-nav" >
+              <Nav className="mr-auto">
+                  <Nav.Link href="#Головна" className="text-light">Головна</Nav.Link>
+                  <Nav.Link href="#Про нас" className="text-light">Про нас</Nav.Link>
+                  <Nav.Link href="#Наші послуги" className="text-light">Наші послуги</Nav.Link>
+                  <Nav.Link href="#Контакти" className="text-light">Контакти</Nav.Link>
+              </Nav>
+              <div>+380 97 13 45 624</div>
+           </ Navbar.Collapse>
+      </Container>
+    </Navbar>
 
 
-      <ul className="nav">
-        {Links.map((item, index) =>(
-          <Link key={item.label} info={item} />
-        ) )}
-      </ul>
-
-      <div>+380 97 13 45 624</div>
-
-    </nav>
+    <div className="container-fluid">
     <div id="Головна">
     <Home />
     </div>
@@ -54,9 +58,12 @@ export default class Header extends Component {
     < Contact />
     </div>
     <div>
-    <HeaderDiag />
+    < HeaderDiag />
     </div>
-    </div>
+      </div>
+
+
+    </>
     );
   }
 }

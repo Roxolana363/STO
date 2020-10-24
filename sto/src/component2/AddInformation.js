@@ -5,7 +5,7 @@ import Carrousel from './Carrousel.js';
 
 const AddInformation = () => {
     return(
-     <div className="d-inline-flex AddContainer">
+     <div className=" AddContainer">
       <div  className="flex AddTextContainer">
         <h1 className="AddTitle MontserratAlternates-SemiBold">ДОДАТКОВА<br/> ІНФОРМАЦІЯ</h1>
            <p className="AddText Roboto-Light">Многие считают, что во время этого процесса лишь считывают показания двигателя, а также выявляют скрытые ошибки и отмотанный пробег. На самом деле, диагностика авто, цена на которую подойдет всем, покажет информацию и о других не менее важных поломках. В том числе,
