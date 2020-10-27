@@ -6,7 +6,7 @@ import './Services.css';
 export default class Services extends Component {
   render() {
     return(
-      <div className="container-fluid service">
+      <div className="container-fluid">
         <h1 className="MakSi MontserratAlternates-Regular">Наші послуги MakSi </h1>
         <div className="FS">
         <Favors />

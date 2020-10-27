@@ -5,6 +5,7 @@ import Diagnostics from './Diagnostics.js';
 import DiagnosticServices from './DiagnosticServices.js';
 import AddInformation from './AddInformation.js';
 import {Navbar, Nav, Container} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   render(){
@@ -12,7 +13,7 @@ export default class Header extends Component {
       <>
     <Navbar  collapseOnSelect expand="md" variant="dark"  className="navStyle fixed-top">
       <Container>
-        <Navbar.Brand href="/" >MakSi</Navbar.Brand>
+        <Link to="/"><Navbar.Brand>MakSi</Navbar.Brand>  </Link>
            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
            <Navbar.Collapse id="responsive-navbar-nav" >
               <Nav className="mr-auto">
@@ -26,6 +27,7 @@ export default class Header extends Component {
       </Container>
     </Navbar>
 
+        <div className="container-fluid">
         <div>
           <Diagnostics />
         </div>
@@ -41,7 +43,8 @@ export default class Header extends Component {
         <div id="Контакти">
         < Contact />
         </div>
-      
+        </div>
+
 
 
     </>

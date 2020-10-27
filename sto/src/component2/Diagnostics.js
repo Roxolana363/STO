@@ -4,7 +4,7 @@ import Worker from '../img/Mask Group 22.png';
 
 const Diagnostics = () => {
     return(
-     <div>
+     <div >
           <img src={Worker} alt="Worker" className="Worker" />
           <div className="ContDiag">
           <h1 className="HDiag MontserratAlternates-SemiBold">ДИАГНОСТИКА</h1>

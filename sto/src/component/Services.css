@@ -1,8 +1,5 @@
-.service {
-  margin-top: 15%;
-}
 .MakSi {
-padding-top: 5%;
+  padding-top: 10%;
   text-align: center;
   font-size: 48px;
 }
@@ -19,8 +16,6 @@ padding-top: 5%;
 }
  @media screen and (max-width: 720px){
 .MakSi {
-  padding-top: 5%;
-  text-align: center;
   font-size: 28px;
    }
    .MakSi:hover{

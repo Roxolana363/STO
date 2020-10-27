@@ -10,8 +10,8 @@ function AdvantageBox({src, num, data}) {
     <div className=" BoxBoxes">
     <div className="AdvantageBox">
     <img src={src} alt="AdvantageImg"  className="AdvantageImg"/>
-    <p className="num card-text Roboto-Regular">{num}</p>
-    <p className="Data card-text Roboto-Regular">{data}</p>
+    <p className=" card-text Roboto-Regular">{num}</p>
+    <p className="card-text Roboto-Regular">{data}</p>
    </div>
    </div>
     </>

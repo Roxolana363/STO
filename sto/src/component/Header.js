@@ -7,8 +7,6 @@ import Benefits from './Benefits.js';
 import Services from './Services.js';
 import Information from './Information.js';
 import Contact from './Contact.js';
-import HeaderDiag from '../component2/HeaderDiag.js';
-
 import {Navbar, Nav, Container} from 'react-bootstrap';
 
 
@@ -56,9 +54,6 @@ export default class Header extends Component {
     </div>
     <div id="Контакти">
     < Contact />
-    </div>
-    <div>
-    < HeaderDiag />
     </div>
       </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import './DiagnosticServices.css';
-import Service1 from '../img/Group 3044.png';
-import Service2 from '../img/Group 3043.png';
+import Service1 from '../img/Group 514.png';
+import Service2 from '../img/Group 516.png';
 import Service3 from '../img/Group 513.png';
 import Service4 from '../img/Group 517.png';
 
@@ -11,7 +11,7 @@ function Services({src, text}) {
     <>
     <div className="RowCont">
     <div className="row">
-    <img src={src} alt="Services"  className="col col-sm-3"/>
+    <img src={src} alt="Services"  className="col col-sm-3 SImg"/>
     <p className="col col-sm-9 ColText Roboto-Regular">{text}</p>
     </div>
     </div>

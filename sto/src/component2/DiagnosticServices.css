@@ -1,5 +1,5 @@
 .ServiceContainer{
-margin-top: 10%;
+margin-top: 3%;
 text-align: center;
 padding: 5%;
 }
@@ -14,9 +14,13 @@ padding: 5%;
   background: #162088;
   border-color: #3642B9;
 }
+.SImg{
+  height: 100%;
+  width: 100%;
+}
 .ColText {
   font-size: 13px;
- text-align: left;
+ text-align: center;
 }
 .ServiceTitle{
 font-size: 48px;
